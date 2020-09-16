@@ -1,0 +1,231 @@
+/** header**/
+.nav-link, .navbar-brand {
+  color: #b2b2b2!important;
+}
+
+#map {
+  height: 500px;
+  border: 1px solid palegreen;
+  /*position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/map.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;*/
+}
+
+.leaflet-container {
+  background: #fff;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.design_heading{
+    padding: 2% 0 2% 0;
+    text-align: center;
+}
+.map_params{
+    /* background-color: palegreen; */
+    margin: -5px 5% 4% 5%;
+    padding: 0px 20px 15px 20px ;
+
+}
+
+.params{
+    /* border: #8cb2f5 solid 2px; */
+    padding-bottom: 8%;
+    padding-left: 15%;
+    padding-right: 10%;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+    border: 1px solid #8cb2f5;
+    width:80%;
+    color: white;
+    background-color: rgb(68, 114, 196);
+    /* margin-bottom: 10%; */
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: #8cb2f5; */
+}
+
+/* option:hover{
+
+  background-color: yellow!important;
+
+} */
+
+select {
+  font-size: .9rem;
+  padding: 2px 5px;
+  width:80%;
+  background:rgb(218, 227, 243);
+  border-color: #8cb2f5;
+  margin-top:-20%;
+  cursor: pointer;
+}
+
+/* select option {
+  background: #8cb2f5; 
+  color: #fff; 
+  box-shadow: inset 20px 20px #f00;
+} 
+
+select option:hover {
+  color: #000; 
+  box-shadow: inset 20px 20px #00f!important;
+} */
+
+option:hover {
+  background-color: red;
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.past, .current, .future{
+  border-radius: 50%;
+}
+
+.past:hover, .current:hover, .future:hover, .active{
+  background-color: rgb(242, 134, 70);
+}
+
+/* .past:active, .current:select, .future:select{
+  outline: none;
+} */
+
+/** slider **/
+.slider-wrap{
+  width:90%;
+  position: relative;
+  margin-top: -5px;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  border-color: blue;
+  border-right-style: solid;
+  border-left-style: solid;
+  /* background-color: black; */
+}
+
+#slider2, #slider1, #slider3{
+  /* -webkit-appearance: none; */
+  width: 100%;
+  height: 7px;
+  /* outline-color: blue; */
+  border-radius: 3px;
+  background-color: rgb(143, 170, 220);
+}
+
+#slider2::-webkit-slider-thumb, #slider1::-webkit-slider-thumb, #slider3::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+
+}
+
+ #selector{
+  height: 80px;
+  width: 30px;
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  font-weight: bolder;
+}
+
+/* .selectBtn{
+  height: 30px;
+  width:30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position:absolute;
+  bottom: 0;
+} */
+
+/* #selectValue{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: cornflowerblue;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: -100px;
+} */
+
+/* #selectValue::after{
+  content: '';
+  border-top: 14px solid cornflowerblue;
+  border-left: 14px solid white;
+  border-right: 17px solid white;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+} */
+
+
+
+/** footer **/
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+   Multicoloured Hover Variations
+*/
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
+
+
